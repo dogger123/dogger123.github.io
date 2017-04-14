@@ -117,7 +117,7 @@
 <meta property="og:type" content="article">
 <meta property="og:title" content="python爬虫初体验">
 <meta property="og:url" content="https://dogger123.github.io/2017/02/28/python爬虫初体验/index.html">
-<meta property="og:site_name" content="OnnekeS">
+<meta property="og:site_name" content="OnnekaS">
 <meta property="og:description" content="第一次写python爬虫，用的是Beautifulsoup库，实现了简单网页的内容爬取。
 
 1.首先是beautifulsoup的安装:
@@ -125,7 +125,7 @@
 2.Beautifulsoup库最常用的对象是Beautifulsoup对象，我写了一个简单的例子：
 12345from urllib import urlopenfrom bs4 import Beaut">
 <meta property="og:image" content="https://dogger123.github.io/../touxiang/beautifulsoup.png">
-<meta property="og:updated_time" content="2017-03-21T11:29:57.082Z">
+<meta property="og:updated_time" content="2017-03-21T13:20:34.656Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="python爬虫初体验">
 <meta name="twitter:description" content="第一次写python爬虫，用的是Beautifulsoup库，实现了简单网页的内容爬取。
@@ -157,7 +157,7 @@
 
   <link rel="canonical" href="https://dogger123.github.io/2017/02/28/python爬虫初体验/"/>
 
-  <title> python爬虫初体验 | OnnekeS </title>
+  <title> python爬虫初体验 | OnnekaS </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -188,7 +188,7 @@
   <div class="custom-logo-site-title">
     <a href="/"  class="brand" rel="start">
       <span class="logo-line-before"><i></i></span>
-      <span class="site-title">OnnekeS</span>
+      <span class="site-title">OnnekaS</span>
       <span class="logo-line-after"><i></i></span>
     </a>
   </div>
@@ -342,7 +342,7 @@
 <p>2.Beautifulsoup库最常用的对象是Beautifulsoup对象，我写了一个简单的例子：</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">from</span> urllib <span class="keyword">import</span> urlopen</div><div class="line"><span class="keyword">from</span> bs4 <span class="keyword">import</span> BeautifulSoup</div><div class="line">html = urlopen(<span class="string">"http://www.pythonscraping.com/pages/page1.html"</span>)</div><div class="line">bsObj = BeautifulSoup(html.read())</div><div class="line">print(bsObj.h1)</div></pre></td></tr></table></figure>
 <p>要注意的是有的教材第一行代码是这样写的:</p>
-<pre><code class="language-python">from urllib import urlopen
+<pre><code class="language-python">   from urllib import urlopen
 </code></pre>
 <p>但是这样运行的时候是会报错的，到网上查了之后发现Python urllib中没有request 这个模块，只需要将request去掉即可。<br>
 运行的结果为<br>
